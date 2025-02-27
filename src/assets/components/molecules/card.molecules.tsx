@@ -6,7 +6,7 @@ function Card({ titulo, subtitulo }: CardProps) {
   return (
     <div className="card">
       <h1> {titulo}</h1>
-      <p> {subtitulo} </p>
+      <h2> {subtitulo} </h2>
     </div>
   );
 }
